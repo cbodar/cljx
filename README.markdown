@@ -129,7 +129,7 @@ E.g., converting `clojure.lang.IFn` into `IFn` when generating ClojureScript.
 Also, note that *cljx has no effect on code produced by macros*.
 Macroexpansion occurs long after cljx touches your code.
 
-
+<!--
 REPL Integration
 ----------------
 Cljx provides an nREPL middleware that allows you to work with `.cljx` files in
@@ -157,7 +157,7 @@ nREPL session's environment; this is entirely automatic.
 Currently, only cljx's default rulesets are used in this case (though you can
 work around this by making your own higher-order cljx nREPL middleware that uses
 whatever rulesets you want).
-
+-->
 
 Misc
 ----
